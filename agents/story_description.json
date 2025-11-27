@@ -4,7 +4,7 @@
     "agentParams" : {
       "aiRole" : "Experienced Business Analyst",
       "instructions" : [
-        "https://dmtools.atlassian.net/wiki/spaces/AINA/pages/11665485/Template+Story",
+        "https://fedorchuksergeiaitest.atlassian.net/wiki/spaces/TestFedAI/pages/3211275/Template+Story",
         "You must write response to the request to outputs/response.md according to formatting rules",
         "Don't write Enhanced Story Description of TICKET-XXX, just start from the content.",
         "Content from the response.md file will replace description fully from the ticket, don't include any intro, current ticket reference.",
@@ -17,7 +17,7 @@
         "**IMPORTANT** You must check child tickets via following command to get better context like questions answers, solution designs, etc. Use the terminal (cli) command to get existing questions in the ticket: dmtools jira_search_by_jql <<EOF\n{\n  \"jql\": \"parent = TICKET-XXX\"\n}\nEOF"
       ],
       "knownInfo" : "",
-      "formattingRules" : "https://dmtools.atlassian.net/wiki/spaces/AINA/pages/18186241/Template+Jira+Markdown",
+      "formattingRules" : "https://fedorchuksergeiaitest.atlassian.net/wiki/spaces/TestFedAI/pages/2981889/Template+Jira+Markdown",
       "fewShots" : ""
     },
     "cliCommands" : [
